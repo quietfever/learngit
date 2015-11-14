@@ -1,0 +1,20 @@
+<html>
+<head><title>LH's Book Databases</title></head>
+
+<body>
+<h1>Author Databases</h1>
+{% if author_list %}
+    <ul>
+    {% for author in author_list %}
+        <li><p>Name:{{ author.Name }}	Age:{{ author.Age }}	Country:{{ author.Country }}	AuthorID:{{ author.AuthorID }}</p></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No author in authorbases.</p>
+{% endif %}
+
+
+<p><a href="/addr/"><input type="submit" value="Return"></a></p>
+</body>
+
+</html>
