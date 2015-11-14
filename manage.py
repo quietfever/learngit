@@ -1,5 +1,9 @@
 #!/usr/bin/env python
-# I make a change now !!!two use
+<<<<<<< HEAD
+# I make a change now
+=======
+# I make a change now 
+>>>>>>> c4
 import os
 import sys
 
